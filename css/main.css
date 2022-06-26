@@ -5,15 +5,14 @@ html {
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 1em;
-    /*display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center;*/ /*** I don't think this is necessary, but it's in the directions***/
+    align-items: center;
 }
 
 .container {
 	max-width: 1200px;
     width: 90%;
-	margin-left: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,6 +222,14 @@ footer span {
 
 
 @media all and (min-width:1200px) {
+
+	body {
+  		font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  		display: flex;
+		justify-content: center;
+  		align-items: center;
+	}
+
 	header {
 		flex-flow: row nowrap;
 	}
